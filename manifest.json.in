@@ -1,0 +1,15 @@
+{
+    "name": "testpairs.md",
+    "description": "p",
+    "architecture": "@CLICK_ARCH@",
+    "title": "testpairs",
+    "hooks": {
+        "testpairs": {
+            "apparmor": "testpairs.apparmor",
+            "desktop":  "testpairs.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Mauricio Duarte <mauricioduarte@protonmail.com>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
